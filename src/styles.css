@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Montserrat;
+  }
+
+@font-face {
+    font-family: Montserrat;
+    src: url(assets/Montserrat-Regular.ttf);
+}
+/* common classes starts here */
+a{
+  text-decoration: none;
+  color: #222222;
+}
+.font_20{
+  font-size: 20px;
+}
+/* .pageheading{
+  min-width: 100px;
+  width: fit-content;
+} */
+.underline {
+  height: 3px;
+  background-color: #34b7a7;
+  width: 100px;
+  margin: 0 auto;
+}
+/* common classes ends here */
+
+
+/* headear css starts here  */
+nav a.active{
+  color: #222222 !important;
+}
+/* headear css starts here  */
+
+/* page height css stars here */
+.pageht{
+  min-height: 100vh;
+  padding-top: 90px;
+}
+/* page height css ends here */

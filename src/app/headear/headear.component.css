@@ -1,0 +1,43 @@
+.headerbg{
+    background-color: #e9e8e6;
+    font-family: Montserrat;
+    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
+    /* position: fixed; */
+}
+a{
+    text-decoration: none;
+    color: #222222;
+}
+nav a{
+    color: #222222;
+    height: 30px;
+}
+nav a.active{
+    font-weight: bold;
+}
+.hover-underline {
+    display: inline-block;
+    position: relative;
+    color: #34b7a7;
+  }
+  
+  .hover-underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #34b7a7;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+  .hover-underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .mobilenav{
+    height: 100vh;
+    background-color: #ffffff;
+  }
